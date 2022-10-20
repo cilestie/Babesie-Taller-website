@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="quizapp.css" type="text/css">
+</head>
+<body>
+    <div class="body">
+        <video class="bg" autoplay muted loop>
+            <source src="binary_code_background_GHUMR3S(720p).mp4" type="video/mp4">
+        </video>
+
+        <div class="lap">
+
+            <a href="home.html"><img src="logo.png" width="45%"></a>
+
+            <li><a href="stats.html">Stat</a></li>
+            <li><a href="form.html">Registration</a></li>
+            <li><a class="active" href="quizapp.html">Quiz App</a></li>
+            
+            
+        </div>
+
+    <h1>Student Profile</h1>
+    <form action="">
+        <div class="Profile">
+            <ul>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" size="40" placeholder="ex. Babesie Taller"
+                   required class="1"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" size="40" placeholder="ex. babesietaller11@gmail.com"
+                   pattern="+gmail.com" required class="1"><br><br>
+                <label for="course">Course:</label>
+                <input type="course" name="course" id="course" size="40" placeholder="Please input course and block"
+                   required><br><br>   
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date" required class="5"><br><br>   
+            </ul>
+        </div>
+    <h1>Exam Proper</h1>
+
+    <div class="Profile">
+        <ol>
+            <li>What is JavaScript?</li>
+            <input type="text" name="javascript" id="javascript" size="40" required><br><br>
+
+            <li>Inside which HTML element do we put the JavaScript?</li>
+            <input type="radio" id="scripting" name="css" value="&lt;scripting&gt;" >
+            <label for="scripting"> &lt;scripting&gt; </label><br><br>
+            <input type="radio" id="javascript" name="css" value="javascript" >
+            <label for="javascript"> &lt;javascript&gt; </label><br><br>
+            <input type="radio" id="js" name="css" value="js" >
+            <label for="scripting"> &lt;js&gt; </label><br><br>
+            <input type="radio" id="script" name="css" value="script" >
+            <label for="scripting"> &lt;script&gt; </label><br><br>
+
+            <li id="qtext">What is the correct JavaScript syntax to change the content of the HTML element below?<br><br>&lt;p id="demo"&gt;This is a demonstration.&lt;/p&gt;</li>
+            <input type="checkbox" id="input type" name="input type" value="text">
+            <label for="input type"> document.getElementById("demo").innerHTML = "Hello World!";</label><br>
+            <input type="checkbox" id="input type" name="input type" value="text">
+            <label for="input type"> document.getElementByName("p").innerHTML = "Hello World!";</label><br>
+            <input type="checkbox" id="input type" name="input type" value="text">
+            <label for="input type">  #demo.innerHTML = "Hello World!";</label><br>
+            <input type="checkbox" id="input type" name="input type" value="text">
+            <label for="input type"> document.getElement("p").innerHTML = "Hello World!";</label><br><br>
+
+            <li>How do you call a function named "myFunction"?</li>
+                    
+            <select class="html" required>
+                <option value="" disabled selected> Choose here </option>
+                <option value="HTML"> call myFunction()</option>
+                <option value="CSS"> call function myFunction()</option>
+                <option value="JS"> myFunction()</option>
+            </select><br><br>
+
+            <li>Create a JavaScript that writes "Hello JavaScript!" into an HTML element with id="demo":</li>
+            <input type="file" id="pic" name="pic" accept="image/png, image/jpeg"><br><br>
+
+            <li>Why Study JavaScript?</li>
+            <textarea name="Addcom" id="Addcom" placeholder="Type your answer here..." cols="70" rows="10"
+                required></textarea>
+            <br>
+        </ol>
+        </div>
+               <tr>
+            <td>
+                <a href="submit.html"><button type="submit">Submit</a>
+            </td>
+            <td><button type="reset"><strong>Clear</strong></button></td>
+        </tr>
+    </form>
+    <br><br> <br><br><br>
+    </div>
+    <footer>
+
+           <p2>Follow me on social media!</p2><br>
+        <p3>Copyright ASM @ 2022</p3><br>
+            <ul>
+                <a href="https://www.facebook.com/babesietaller.2003" target="_blank"><img src="Facebook-Icon.png" alt="fb" width="50px"></a>
+                <a href="https://www.instagram.com/babesie.at/" target="_blank"><img src="Instagram-Logo.png" alt="ig" width="50px"></a>
+                <a href="https://twitter.com/babesietaller/" target="_blank"><img src="twitter logo.png" alt="twitter" width="50px"></a> 
+            </ul>
+            
+
+    </footer>
+</body>
+</html>
