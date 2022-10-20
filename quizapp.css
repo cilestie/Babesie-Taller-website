@@ -106,6 +106,7 @@ form button[type="submit"] {
     margin-top: 20px;
     width: 100px;
     border-radius: 5px;
+    text-alignment: cenetr;
 }
 
 form button[type="reset"] {
